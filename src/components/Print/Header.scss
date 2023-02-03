@@ -3,6 +3,7 @@
   flex-direction: row;
   margin-top: 22px;
   border-bottom: 5px solid #1479ff;
+
   .image {
     width: 140px;
     left: 25px;
@@ -11,8 +12,9 @@
     background: #dde8f8;
     margin-left: 6px;
 
-    img {
+    .svg__image {
       margin-top: 12px;
+      fill: #193B68;
     }
 
     p {
@@ -20,9 +22,26 @@
     }
   }
 
-  .navbar__image__container__border {
-    // width: 1869px;
-    height: 5px;
+  .image:hover {
     background: #1479ff;
+    cursor: pointer;
+  }
+
+  .image__selected {
+    background: #1479ff;
+    width: 140px;
+    left: 25px;
+    top: 47px;
+    border-radius: 7px 7px 0px 0px;
+    margin-left: 6px;
+
+    .svg__image {
+      margin-top: 12px;
+    }
+
+    p {
+      padding-bottom: 12px;
+      color: #fff;
+    }
   }
 }
