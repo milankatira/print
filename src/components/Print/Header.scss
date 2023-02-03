@@ -1,0 +1,28 @@
+.navbar__image__container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 22px;
+  border-bottom: 5px solid #1479ff;
+  .image {
+    width: 140px;
+    left: 25px;
+    top: 47px;
+    border-radius: 7px 7px 0px 0px;
+    background: #dde8f8;
+    margin-left: 6px;
+
+    img {
+      margin-top: 12px;
+    }
+
+    p {
+      padding-bottom: 12px;
+    }
+  }
+
+  .navbar__image__container__border {
+    // width: 1869px;
+    height: 5px;
+    background: #1479ff;
+  }
+}

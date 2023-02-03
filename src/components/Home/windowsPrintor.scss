@@ -15,8 +15,8 @@
     text-align: center;
   }
 
-  .mainContainer__img-container {
-    background-image: url("../../public/windows.png");
+  .mainContainer__img-container__win {
+    background-image: url("../../../public/windows.png");
     height: 119.5999984741211px;
     width: 122.87999725341797px;
     border-radius: 0px;
@@ -33,12 +33,7 @@
     color: white;
   }
 
-  .mainContainer__img-container {
-    background-image: url("../../public/mcDocs_white.png");
-    height: 119.5999984741211px;
-    width: 122.87999725341797px;
-    border-radius: 0px;
-
-    background-repeat: no-repeat;
+  .mainContainer__img-container__win {
+    background-image: url("../../../public/windows_white.png");
   }
 }

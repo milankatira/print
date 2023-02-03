@@ -16,7 +16,7 @@
   }
 
   .mainContainer__img-container {
-    background-image: url("../../public/windows.png");
+    background-image: url("../../../public/mcDocs.png");
     height: 119.5999984741211px;
     width: 122.87999725341797px;
     border-radius: 0px;
@@ -34,6 +34,11 @@
   }
 
   .mainContainer__img-container {
-    background-image: url("../../public/windows_white.png");
+    background-image: url("../../../public/mcDocs_white.png");
+    height: 119.5999984741211px;
+    width: 122.87999725341797px;
+    border-radius: 0px;
+
+    background-repeat: no-repeat;
   }
 }
