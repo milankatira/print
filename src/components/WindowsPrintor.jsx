@@ -5,7 +5,7 @@ import { updateValue } from '../redux/themeAction';
 
 const WindowsPrintor = () => {
     const dispatch = useDispatch();
-    const data = useSelector((state) => state);
+    const data = useSelector((state) => state.theme);
     console.log(data, "data");
   return (
     <div
