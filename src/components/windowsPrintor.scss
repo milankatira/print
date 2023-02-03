@@ -1,0 +1,39 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+  flex-direction: column;
+
+  .mainContainer__title {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .mainContainer__img-container {
+    background-image: url("../../public/windows.png");
+    height: 119.5999984741211px;
+    width: 122.87999725341797px;
+    border-radius: 0px;
+
+    background-repeat: no-repeat;
+  }
+}
+
+.mainContainer:hover {
+  background: #1479ff;
+  transition: all 0.3s ease-in-out;
+
+  .mainContainer__title {
+    color: white;
+  }
+
+  .mainContainer__img-container {
+    background-image: url("../../public/windows_white.png");
+  }
+}
